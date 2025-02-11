@@ -3,6 +3,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 h2 {
@@ -12,10 +13,17 @@ h2 {
     text-align: center;
 }
 
+* { 
+    box-sizing: border-box;
+}
+
 p {
-    color: rgb(37, 220, 20);
+    color: #175e11;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 ul {
@@ -25,10 +33,25 @@ ul {
     font-weight: 700;
 }
 
+.no-bullets {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .ingredients {
     font-size: 30px;
     font-weight: 100;
+    margin: 0 auto;
+    width: 500px;
+    list-style-type: none;
+}
 
+.steps {
+    background-color: #00a6ff;
+    width: 200 px;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 
 img {
@@ -44,9 +67,55 @@ img {
 }
 
 .main {
-    width: 600px;
+    margin: 0 auto;
+    margin-top: -40px;
+    max-width: 45%;
+}
+
+.sandwich {
+    max-width: 90%;
 }
 
 .home {
     font-size: 35px;
+}
+
+body {
+    background: #b2b0b0;
+}
+
+.names {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 14%;
+}
+
+.recipes {
+    background-color: #d6e752;
+}
+
+div {
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.bars {
+    background-color: #d41798;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cheese {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.smoothie {
+    background-color: aqua;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
